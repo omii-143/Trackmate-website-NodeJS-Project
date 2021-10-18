@@ -8,11 +8,6 @@
     --border-white: 2px solid white;
 }
 
-title {
-    color: var(--neon-purple);
-    background: var(--neon-purple);
-}
-
 html {
     font-size: 62.50%;
     font-family: var(--font-roboto);
