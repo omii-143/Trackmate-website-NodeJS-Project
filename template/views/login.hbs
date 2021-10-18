@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TarckMate</title>
+    <!-- My Links -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="login">
+        <div class="loginContainer">
+            <div class="loginInnerContainer">
+                <a href="#" id="backBtn" onclick="history.back()"><i  class="far fa-times-circle"></i></a>
+                <div class="signUp">
+                    <h1>Sign Up</h1>
+                    <h3>Already a member? <a href="#" id="Login">Login</a></h3>
+                    <a href="#" class="facebook-Btn"><i class="fab fa-facebook-square"></i>Sign up with Facebook</a>
+                    <a href="#" class="google-Btn"><i class="fab fa-google-plus-g"></i>Sign up with Google</a>
+                    <h4><span></span> Or <span></span></h4>
+                    <a href="#" class="email-Btn">Sign up with Email</a>
+                </div>
+                <div class="loginUp">
+                    <h1>Log In</h1>
+                    <h3>New to this site? <a href="#" id="Sign">Sign Up</a></h3>
+                    <a href="#" class="facebook-Btn"><i class="fab fa-facebook-square"></i>Login in with Facebook</a>
+                    <a href="#" class="google-Btn"><i class="fab fa-google-plus-g"></i>Login in with Google</a>
+                    <h4><span></span> Or <span></span></h4>
+                    <a href="#" class="email-Btn">Login with Email</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/login.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script>
+        AOS.init({
+            duration: 1800,
+            offset: 150
+        });
+    </script>
+</body>
+
+</html>

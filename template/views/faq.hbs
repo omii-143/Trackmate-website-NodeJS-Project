@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TarckMate</title>
+    <!-- My Links -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+
+<body>
+    <!-- -----------Header----------- -->
+    {{>header}}
+    <!-- -----------\* Header End */----------- -->
+    <section id="faq">
+        <div class="faq-Container">
+            <h1><strong>FAQ</strong></h1>
+            <div class="innerFAQ">
+                <h2 id="h2">Frequently Asked Questions</h2>
+                <i id="searchBtn" class="fas fa-search"></i>
+                <div class="search">
+                    <form action="">
+                        <input type="text" placeholder="Search Here" name="searchTab" id="searchTab">
+                        <p id="inputParagraph"></p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="questions">
+                <div class="questionCard " id="qCard_1">
+                    <div class="questionSection">
+                        <h2>How do I add a new question?</h1>
+                            <i id="angle-1" class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="answerSection" id="answer-1">
+                        <p>To add a new question go to app settings and press "Manage Questions" button.</p>
+                        <div class="faceTwitte">
+                            <a href="#"><i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="questionCard " id="qCard_2">
+                    <div class="questionSection">
+                        <h2>Can I insert pictures in my FAQ??</h1>
+                            <i id="angle-2" class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="answerSection" id="answer-2">
+                        <p>Yes! To add a picture follow these simple steps: <br>(1) Enter App Settings <br>(2) Click the "Manage Questions" button <br>(3) Click on the question you would like to attach a picture to <br>(4) When editing your answer, click
+                            on the picture icon and then add an image from your library</p>
+                        <div class="faceTwitte">
+                            <a href="#"><i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="questionCard " id="qCard_3">
+                    <div class="questionSection">
+                        <h2>Can I insert a video in my FAQ?</h1>
+                            <i id="angle-3" class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="answerSection" id="answer-3">
+                        <p>Yes! Users can add video from YouTube or Vimeo with ease:
+                            <br>(1) Enter App Settings
+                            <br>(2) Click the "Manage Questions" button
+                            <br>(3) Click on the question you would like to attach a video to
+                            <br>(4) When editing your answer, click on the video icon and then paste the YouTube or Vimeo video URL
+                            <br>(5) That's it! A thumbnail of your video will appear in answer text box</p>
+                        <div class="faceTwitte">
+                            <a href="#"><i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="questionCard " id="qCard_4">
+                    <div class="questionSection">
+                        <h2>How do I edit or remove the "FAQ title"?</h1>
+                            <i id="angle-4" class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="answerSection" id="answer-4">
+                        <p>The FAQ title can be adjusted in the settings tab of the App Settings. You can also remove the title by unchecking its checkbox in the settings tab.</p>
+                        <div class="faceTwitte">
+                            <a href="#"><i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- -----------Footer Container----------- -->
+
+    {{>footer}}
+
+    <!-- -----------|* Footer Container End  *|----------- -->
+    <script src="../js/faq.js"></script>
+    <script>
+        AOS.init({
+            duration: 1800,
+            offset: 150
+        });
+    </script>
+</body>
+
+</html>
