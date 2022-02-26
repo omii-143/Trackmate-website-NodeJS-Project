@@ -1,4 +1,3 @@
-const port = 80;
 const host = '127.0.0.1';
 const path = require('path');
 
@@ -6,6 +5,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
+const port = process.env.PORT || 80;
 // Static
 app.use(express.static(path.join(__dirname, "../static")));
 
@@ -38,6 +38,6 @@ app.get('*', (req, res) => {
 });
 
 // server
-app.listen(port, host, () => {
+app.listen(port, () => {
     console.log(`http://${host}:${port}/`);
 });
